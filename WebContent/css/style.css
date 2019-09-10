@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+#bod
+{
+	overflow-x: hidden;
+	font-family: 'Lato', sans-serif;
+	color: #505962;
+}
+.offset:before
+{
+	display:block;
+	content:"";
+	height:4 rem;
+	
+}
+.navbar
+{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: .9rem;
+	letter-spacing: .1rem;
+	background:rgba(0,0,0,0.6)!important;
+
+}
+.navbar-nav li
+{
+	padding-right: .7rem;
+}
+
+
+.navbar .collapse .navbar-nav .nav-link{
+  color: #ffffff;
+  padding-top: .8rem;
+}
+.navbar .collapse  .navbar-nav .nav-link.active, 
+.navbar .collapse  .navbar-nav .nav-link:hover{
+  color: #1ebba3;
+}
+.home-inner{
+  background-image:url("images/w5.jpg");
+  
+}
+.caption{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:55%;
+  z-index:1;
+  color:black;
+  text-transform: uppercase;
+}
+.caption h1{
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+  color: white;
+ 
+}
+.caption h3{
+  font-size:1.5rem;
+  text-shadow: .1rem .1rem .3rem black;
+  padding-bottom: 1.6rem;
+  letter-spacing: 0.3rem;
+  color: white;
+}
+
+.btn.btn-outline-light.btn-lg
+{
+
+color:white;
+border-color:#1ebba3 ;
+font-size: 1.2rem;
+margin-top: 25px;
+background-color: #1ebba3;
+border-width:medium;
+text-transform: uppercase;
+}
+
+.jumbotron
+{
+	margin-bottom: 0;
+	padding: 2rem 0 3.5rem;
+	border-radius: 0;
+}
+h3.heading
+
+{
+	font-size:1.9rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 1.9rem;
+	margin-top: 1rem;
+}
+.heading-underline
+{
+width:3rem;
+height: .2rem;
+background-color: #1ebba3;
+margin:0 auto 2rem;	
+margin-top: -1rem;
+}
+.feature h3
+{
+font-size: 1.3rem;
+text-transform: uppercase;
+padding-bottom: .4rem;
+margin-top: 1rem;
+}
+.feature p
+{
+font-size: 1.1rem;
+}
+.feature img
+{
+	width: 100%;
+	height:100%;
+}
+.dark{
+	background-color: rgba(0,0,0,0.75);
+	color: white;
+	padding:7rem 2rem;
+}
+.dark-main{
+	background-color: rgba(0,0,0,0.75);
+	color: white;
+	
+}
+.fixed
+{
+	background-image: url("images/event.jpg");
+
+	
+}
+
+.clients img
+{
+	width:100%;
+	border-radius: 50%;
+}
+blockquote .svg-inline--fa
+{
+	color:#1ebba3;
+	margin:1rem;
+}
+.clients-hr
+{
+	border-top: 0.2rem solid #1ebba3;
+
+}
+
+footer
+{
+	background-color: #40474e;
+	color:white;
+	padding:2rem 0 2rem;
+	margin-top: 3rem;
+}
+footer img
+{
+	height: 4rem;
+	margin:1.5rem 0;
+
+}
+footer a
+{
+	color: white;
+}
+footer svg.svg-inline--fa
+{
+	font-size: 1.6rem;
+	margin: 1.2rem .5rem 0 0;
+
+}
+footer svg.svg-inline--fa:hover
+{
+	color: #1ebba3!important;
+}
+hr.socket
+{
+	width: 100%;
+	border-top:.2rem solid #666b71;
+	margin-top:3rem;
+}
+.btn.btn-secondary
+{
+	border-width:medium;
+	
+	text-transform: uppercase;
+	font size: 1.2rem;
+	
+	color: white;
+	background-color: #1ebba3;
+	border-color: #1ebba3;
+}
+.fixed-background p
+{
+	font-size: 1.3rem;
+}

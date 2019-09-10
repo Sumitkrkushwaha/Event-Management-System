@@ -1,0 +1,58 @@
+body
+{
+	background: url(images/email.jpg);
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+.titu
+{
+	max-width: 360px;
+	max-height: 360px;
+	border-radius: 10px;
+	margin: auto;
+	background:rgba(0,0,0,0.8);
+	box-sizing: border-box;
+	padding: 20px;
+	color: #FFFFFF;
+	margin-top: 200px;
+}
+
+h2
+{
+	text-align: center;
+	text-decoration-color: #FFFFFF;
+}
+
+input[type=text]
+{
+	width: 100%;
+	height: 35px;
+	background: rgba(0,0,0,0.10);
+	font-weight: bold;
+	box-sizing: border-box;
+	color: #fffFFF;
+	margin-top: none;
+	padding: 12px,10px;
+	outline: none;
+}
+
+input[type=submit]
+{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px 0;
+	margin-top: 30px;
+	outline: none;
+	border: none;
+	background: #60adde;
+	border-radius: 20px;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+}
+
+input[type=submit]:hover
+{
+	background: #003366;
+}

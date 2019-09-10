@@ -1,0 +1,35 @@
+body
+{
+	background: url("images/success.jpg");
+	background-size: cover;
+	font-family: sans-serif;
+	
+}
+
+.titu
+{
+	max-width: 450px;
+	max-height: 360px;
+	border-radius: 10px;
+	background-opacity: 0.2;
+	margin: auto;
+	background: rgba(0,0,0,0.8);
+	box-sizing: border-box;
+	padding: 18px;
+	color: #FFFFFF;
+	margin-top: 200px;
+}
+
+h1
+{
+	text-align: center;
+	color:white;
+	margin-top: 15px;
+}
+h3
+{
+	text-align: center;
+	color:white;
+	padding-top: 5px;
+	font-size: bold;
+}
